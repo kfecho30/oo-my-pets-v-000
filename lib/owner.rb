@@ -1,7 +1,7 @@
 class Owner
   @@all = []
   def initialize(owner)
-    Owner.all
+    @@all << self
   end
   def self.all
     @@all << self
