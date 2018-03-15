@@ -3,6 +3,7 @@ class Owner
   @@all = []
   @@count = 0
   def initialize(owner)
+    @species = "human"
     @@all << self
     @@count += 1
   end
@@ -17,7 +18,5 @@ class Owner
     @@count = 0
   end
 
-  def species=(species)
-    @species = "human"
-  end
+
 end
