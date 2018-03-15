@@ -3,6 +3,7 @@ class Owner
   @@all = []
   @@count = 0
   def initialize(name)
+    @name = name
     @species = "human"
     @@all << self
     @@count += 1
