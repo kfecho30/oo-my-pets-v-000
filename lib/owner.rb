@@ -46,7 +46,7 @@ class Owner
     @pets.each do |k, v|
       v.each do|pet|
         pet.mood = "nervous"
-        pet.remove
+        pet.delete
       end
     end
   end
